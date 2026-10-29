@@ -77,7 +77,8 @@ function App() {
         setResult(String(Number(firstNum) / Number(disResult)));
         break;
     }
-
+    setFirstNum("");
+    setOper("");
   }
 
   return (
